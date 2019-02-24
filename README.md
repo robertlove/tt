@@ -1,2 +1,3 @@
-# tt
-12 times tables
+# Times Tables
+
+https://robertlove.github.io/tt/
