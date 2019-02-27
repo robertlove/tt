@@ -20,9 +20,9 @@ var html = "";
 
 for (var i = 0; i < slides.length; i++) {
   if (i == 0) {
-    html += `<div class="carousel-item active"><div class="d-flex align-items-center justify-content-center w-100 vh-100 display-1">${slides[i][0]} x ${slides[i][1]}</div></div><div class="carousel-item"><div class="d-flex align-items-center justify-content-center w-100 vh-100 display-1">${slides[i][2]}</div></div>`;
+    html += `<div class="carousel-item active"><div class="d-flex align-items-center justify-content-center w-100 vh-100 display-2">${slides[i][0]} x ${slides[i][1]}</div></div><div class="carousel-item"><div class="d-flex align-items-center justify-content-center w-100 vh-100 display-2">${slides[i][2]}</div></div>`;
   } else {
-    html += `<div class="carousel-item"><div class="d-flex align-items-center justify-content-center w-100 vh-100 display-1">${slides[i][0]} x ${slides[i][1]}</div></div><div class="carousel-item"><div class="d-flex align-items-center justify-content-center w-100 vh-100 display-1">${slides[i][2]}</div></div>`;
+    html += `<div class="carousel-item"><div class="d-flex align-items-center justify-content-center w-100 vh-100 display-2">${slides[i][0]} x ${slides[i][1]}</div></div><div class="carousel-item"><div class="d-flex align-items-center justify-content-center w-100 vh-100 display-2">${slides[i][2]}</div></div>`;
   }
 }
 
