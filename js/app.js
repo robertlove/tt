@@ -14,8 +14,8 @@ function getSlide(content, active = false) {
 
 var slides = [];
 
-for (var i = 1; i <= 2; i++) {
-  for (var j = 1; j <= 2; j++) {
+for (var i = 1; i <= 12; i++) {
+  for (var j = 1; j <= 12; j++) {
     slides.push([i, j, i*j]);
   }
 }
